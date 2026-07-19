@@ -12,6 +12,7 @@ const ALLOWED_ROOT = new Set([
   'package.json', 'scripts', 'wiki-manifest.json',
 ])
 const ALLOWED_SECTIONS = new Set(['comparisons', 'concepts', 'entities'])
+const GENERATED_ROOT = /^(?:\.(?:wiki|finance)-(?:work|sync|publish))(?:[.-].*)?$/
 
 function fail(message) {
   throw new Error(message)
@@ -64,6 +65,18 @@ function validateMarkdown(relative, markdown) {
   if (markdown.includes('[[')) failures.push('unresolved wikilink')
   if (/(?:^|[^\p{L}\p{N}_])[A-Za-z]:[\\/]/u.test(markdown)) failures.push('Windows absolute path')
   if (/(?:^|[\s(<])\/(?:Users|home|data|private|tmp)\//i.test(markdown)) failures.push('local absolute path')
+  const executable = markdown
+    .replace(/```[^\n]*\n[\s\S]*?```/g, '')
+    .replace(/~~~[^\n]*\n[\s\S]*?~~~/g, '')
+    .replace(/`[^`\n]*`/g, '')
+  if (/<\/?(?:script|style|template|iframe|object|embed)\b/i.test(executable)) failures.push('active HTML element')
+  if (/<[A-Z][A-Za-z0-9_.:-]*\b/.test(executable) || /<[a-z][a-z0-9]*-[a-z0-9-]*\b/i.test(executable)) {
+    failures.push('Vue or custom component')
+  }
+  if (/<[^>]+\s(?:v-[\w:.-]+|@[\w:.-]+|:[\w:.-]+|on[a-z]+)\s*=/i.test(executable)) {
+    failures.push('active HTML attribute')
+  }
+  if (/javascript\s*:/i.test(executable)) failures.push('javascript URL')
   if (failures.length) fail(`${relative}: ${failures.join(', ')}`)
 }
 
@@ -103,7 +116,7 @@ async function validateCollection({ name, manifest: manifestFile }) {
 async function main() {
   const rootEntries = new Set(await readdir(ROOT))
   for (const entry of rootEntries) {
-    if (entry === '.git' || ALLOWED_ROOT.has(entry)) continue
+    if (entry === '.git' || ALLOWED_ROOT.has(entry) || GENERATED_ROOT.test(entry)) continue
     fail(`Unexpected repository root entry: ${entry}`)
   }
   await assertNoSymlinks(ROOT)
