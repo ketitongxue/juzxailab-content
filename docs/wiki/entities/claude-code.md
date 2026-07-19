@@ -3,7 +3,7 @@ title: "Claude Code"
 type: "entity"
 tags: [claude-code, ai-coding, agent]
 created: "2026-07-01"
-updated: "2026-07-12"
+updated: "2026-07-14"
 ---
 
 # Claude Code
@@ -38,6 +38,19 @@ Claude Code 的实践通常围绕几类能力展开：
 - [Claude Code 扩展系统](/wiki/concepts/claude-code-extension-system)
 - [智能体循环工程](/wiki/concepts/agent-loop-engineering)
 - [智能体反馈循环](/wiki/concepts/agent-feedback-loop)
+
+## 技术导演模式
+
+Claude Code 也可以作为个人开发者的技术规划伙伴，而不只是代码生成器。面对登录保护、验证码或跨模块功能时，可以先给出高层目标、现有架构、数据约束和验收标准，再让它输出：
+
+- 模块设计与影响范围。
+- 可执行的任务拆解。
+- 多种实现方案及其取舍。
+- 测试、验证和发布计划。
+
+在这种模式下，一个高层需求可以先被映射到数据库、中间件、路由、日志、统一拦截行为和测试，再进入实现。人的职责是确认目标、审查关键取舍并验收结果；Claude Code 负责扩大分析和执行的覆盖面。
+
+相关方法可继续阅读[智能体任务简报](/wiki/concepts/agent-task-briefing)和[上下文工程](/wiki/concepts/context-engineering)。
 
 ## 工程边界
 

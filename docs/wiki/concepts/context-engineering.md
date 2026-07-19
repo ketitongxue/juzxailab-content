@@ -3,7 +3,7 @@ title: "上下文工程"
 type: "concept"
 tags: ["context-engineering", "agent", "workflow", "ai-coding"]
 created: "2026-06-13"
-updated: "2026-07-07"
+updated: "2026-07-14"
 ---
 
 # 上下文工程
@@ -24,6 +24,8 @@ updated: "2026-07-07"
 
 [RAG 上下文剪枝](/wiki/concepts/rag-context-pruning)增加了按查询过滤的动态层：小型列表式模型在昂贵生成模型读取前，删除对完整答案没有贡献的检索文本块。因此，上下文工程既包括静态加载架构，也包括检索后的动态裁剪。
 
+复杂产品开发还需要一层“委托上下文”。在要求智能体写代码之前，应先交代目标用户、业务目标、数据模型、验证规则、现有架构和验收行为，让它据此拆解任务并比较实现路径。如果在问题尚未分析时就直接指定某个实现库，智能体会退化为代码搬运者，也失去了参与规划和方案选择的空间。
+
 ## 机制地图
 
 - [Claude Code 记忆文件](/wiki/concepts/claude-code-memory-files)让稳定项目规则始终可用。
@@ -32,6 +34,7 @@ updated: "2026-07-07"
 - [渐进式披露](/wiki/concepts/progressive-disclosure)避免一次加载全部知识。
 - [RAG 上下文剪枝](/wiki/concepts/rag-context-pruning)在生成前过滤高召回检索集合。
 - [智能体任务简报](/wiki/concepts/agent-task-briefing)在实现前塑造任务上下文。
+- 技术导演式委托先提供目标、架构和验收上下文，再让智能体提出任务拆解与方案选项。
 - [苏格拉底式规格细化](/wiki/concepts/socratic-spec-refinement)通过编码前对话发现缺失上下文。
 - [Claude Code 子智能体](/wiki/concepts/claude-code-subagents)把嘈杂工作隔离到可丢弃窗口。
 - [长上下文失效模式](/wiki/concepts/long-context-failure-modes)解释噪声历史、无关工具和矛盾答案如何造成故障。
