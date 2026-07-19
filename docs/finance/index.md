@@ -16,7 +16,7 @@ lastUpdated: false
     <strong>精选条目</strong>
     <a href="/finance/concepts/quantitative-investing-knowledge-map">量化投资知识体系地图</a>
     <a href="/finance/concepts/backtesting-bias-and-frictions">回测偏差与交易摩擦</a>
-    <a href="/finance/entities/edward-thorp">爱德华·索普 (Edward Thorp)</a>
+    <a href="/finance/entities/edward-thorp">爱德华·索普</a>
   </div>
   <div class="knowledge-hub__sections" aria-label="分类概览">
     <div><a href="#实体">实体</a><strong>6</strong></div>
@@ -30,12 +30,12 @@ lastUpdated: false
 
 ## 实体
 
-- [本杰明·格雷厄姆 (Benjamin Graham)](/finance/entities/benjamin-graham)
-- [爱德华·索普 (Edward Thorp)](/finance/entities/edward-thorp)
-- [乔治·索罗斯 (George Soros)](/finance/entities/george-soros)
-- [詹姆斯·西蒙斯 (James Simons) 与大奖章基金](/finance/entities/james-simons)
-- [长期资本管理公司 (LTCM) 崩塌](/finance/entities/ltcm)
-- [沃伦·巴菲特 (Warren Buffett)](/finance/entities/warren-buffett)
+- [本杰明·格雷厄姆](/finance/entities/benjamin-graham)
+- [爱德华·索普](/finance/entities/edward-thorp)
+- [乔治·索罗斯](/finance/entities/george-soros)
+- [詹姆斯·西蒙斯与大奖章基金](/finance/entities/james-simons)
+- [LTCM 崩塌](/finance/entities/ltcm)
+- [沃伦·巴菲特](/finance/entities/warren-buffett)
 
 ## 概念
 

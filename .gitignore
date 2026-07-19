@@ -1,5 +1,17 @@
 .DS_Store
 node_modules/
 .wiki-work/
+.wiki-work.backup-*/
+.wiki-work.tmp-*/
+.wiki-sync.lock/
+.wiki-sync.candidate-*/
+.wiki-sync.lock.claim-*/
+.wiki-publish.*
 .finance-work/
+.finance-work.backup-*/
+.finance-work.tmp-*/
+.finance-sync.lock/
+.finance-sync.candidate-*/
+.finance-sync.lock.claim-*/
+.finance-publish.*
 *.tmp
