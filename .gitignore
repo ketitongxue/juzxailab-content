@@ -1,0 +1,5 @@
+.DS_Store
+node_modules/
+.wiki-work/
+.finance-work/
+*.tmp
