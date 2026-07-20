@@ -3,6 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node scripts/validate.mjs"
+    "test": "llm-wiki-validate-repository"
+  },
+  "devDependencies": {
+    "@ketitongxue/llm-wiki-publisher": "https://github.com/ketitongxue/llm-wiki-publisher/archive/refs/tags/v1.0.0.tar.gz"
   }
 }
