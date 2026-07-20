@@ -16,7 +16,7 @@ local paths, private notes, credentials, or source-library metadata.
 ## Publishing flow
 
 1. Update the private/local source wiki.
-2. Run the publishing tools from `my-vitepress-notes`, targeting this checkout.
+2. Run the versioned tools from `ketitongxue/llm-wiki-publisher`, targeting this checkout.
 3. Review the generated Markdown and manifest diff.
 4. Run `npm test` in this repository.
 5. Merge the content pull request into `main`.
@@ -33,4 +33,6 @@ npm test
 
 The validator rejects unexpected root content, symbolic links, invalid manifest
 entries, missing or extra pages, unresolved wiki links, raw-source references,
-and local absolute paths.
+and local absolute paths. Validation rules are supplied by the pinned
+`@ketitongxue/llm-wiki-publisher` development dependency rather than copied
+into this content repository.
