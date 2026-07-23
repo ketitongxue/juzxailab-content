@@ -3,7 +3,7 @@ title: "上下文工程"
 type: "concept"
 tags: ["context-engineering", "agent", "workflow", "ai-coding"]
 created: "2026-06-13"
-updated: "2026-07-14"
+updated: "2026-07-23"
 ---
 
 # 上下文工程
@@ -21,6 +21,10 @@ updated: "2026-07-14"
 [长上下文失效模式](/wiki/concepts/long-context-failure-modes)构成失效层：大窗口仍会因污染、分心、混淆和冲突而降低智能体表现。上下文工程并非把更多信息塞入提示，而是控制哪些信息处于活动、可信、隔离、摘要或丢弃状态。
 
 在[智能体 Harness 工程](/wiki/concepts/agent-harness-engineering)中，上下文是智能体的 RAM；运行框架必须把活动工具描述、压缩、外部记忆、提醒和交接当作运行时资源管理。资源放置要考虑加载时机、能否跨压缩、上下文成本和权威性，从而区分提示型控制与 [Claude Code Hooks](/wiki/concepts/claude-code-hooks)、权限等框架级控制。
+
+[智能体输入规范化](/wiki/concepts/agent-input-normalization)构成入口层：它先解析指代、别名、约束和缺失信息，再让[意图识别流水线](/wiki/concepts/agent-intent-recognition-pipeline)选择工作流。这样可以区分“用户表达没有被正确理解”和“分类器选错了意图”。
+
+[智能体上下文压缩](/wiki/concepts/agent-context-compaction)构成运行时容量层：较早历史被压缩成结构化检查点，近期工具调用和结果保持完整，并通过[会话持久化](/wiki/concepts/agent-session-persistence)跨进程恢复。压缩不是无声截断，而是需要监测、测试和失败降级的状态转换。
 
 [RAG 上下文剪枝](/wiki/concepts/rag-context-pruning)增加了按查询过滤的动态层：小型列表式模型在昂贵生成模型读取前，删除对完整答案没有贡献的检索文本块。因此，上下文工程既包括静态加载架构，也包括检索后的动态裁剪。
 
@@ -43,6 +47,9 @@ updated: "2026-07-14"
 - [最小可复现问题报告](/wiki/concepts/minimal-reproducible-problem-report)保存紧凑诊断证据。
 - [AI 调试错误分诊](/wiki/concepts/ai-debugging-error-triage)在修复前把错误路由到正确证据面。
 - [多智能体架构模式](/wiki/comparisons/multi-agent-architecture-patterns)决定上下文如何共享、隔离、交接和综合。
+- [智能体输入规范化](/wiki/concepts/agent-input-normalization)把含糊用户表达转换为带证据的结构化输入。
+- [智能体上下文压缩](/wiki/concepts/agent-context-compaction)在保留近期语义完整性的同时释放上下文容量。
+- [智能体会话持久化](/wiki/concepts/agent-session-persistence)保存可恢复、可分支和可回放的消息历史。
 
 ## 相关内容
 

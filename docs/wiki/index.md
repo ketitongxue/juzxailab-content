@@ -9,8 +9,8 @@ lastUpdated: false
 <div class="knowledge-hub">
   <p class="knowledge-hub__intro">面向 AI 编程、智能体工程与产品实践的中文知识库。</p>
   <div class="knowledge-hub__stats" aria-label="知识库统计">
-    <span>页面总数：<strong>50</strong></span>
-    <span>最近同步日期：<strong>2026-07-19</strong></span>
+    <span>页面总数：<strong>63</strong></span>
+    <span>最近同步日期：<strong>2026-07-23</strong></span>
   </div>
   <div class="knowledge-hub__featured" aria-label="精选条目">
     <strong>精选条目</strong>
@@ -19,30 +19,42 @@ lastUpdated: false
     <a href="/wiki/concepts/rag-context-pruning">RAG 上下文剪枝</a>
   </div>
   <div class="knowledge-hub__sections" aria-label="分类概览">
-    <div><a href="#实体">实体</a><strong>3</strong></div>
-    <div><a href="#概念">概念</a><strong>45</strong></div>
+    <div><a href="#实体">实体</a><strong>4</strong></div>
+    <div><a href="#概念">概念</a><strong>57</strong></div>
     <div><a href="#对比分析">对比分析</a><strong>2</strong></div>
   </div>
 </div>
 
 <details class="knowledge-hub__all">
-<summary>全部条目（50）</summary>
+<summary>全部条目（63）</summary>
 
 ## 实体
 
 - [CC Switch](/wiki/entities/cc-switch)
 - [Claude Code](/wiki/entities/claude-code)
 - [OpenClaw](/wiki/entities/openclaw)
+- [pigo](/wiki/entities/pigo)
 
 ## 概念
 
+- [智能体上下文压缩](/wiki/concepts/agent-context-compaction)
 - [智能体成本控制](/wiki/concepts/agent-cost-control)
 - [智能体反馈循环](/wiki/concepts/agent-feedback-loop)
 - [智能体 Harness 工程](/wiki/concepts/agent-harness-engineering)
 - [智能体无头执行](/wiki/concepts/agent-headless-execution)
+- [智能体输入规范化](/wiki/concepts/agent-input-normalization)
+- [智能体意图识别流水线](/wiki/concepts/agent-intent-recognition-pipeline)
 - [智能体循环工程](/wiki/concepts/agent-loop-engineering)
 - [智能体流水线编排](/wiki/concepts/agent-pipeline-orchestration)
+- [智能体 Plan 高级模式](/wiki/concepts/agent-plan-advanced-patterns)
+- [智能体 Plan 纠偏策略](/wiki/concepts/agent-plan-correction-strategies)
+- [智能体 Plan 评估](/wiki/concepts/agent-plan-evaluation)
+- [智能体 Plan 的 G4C 框架](/wiki/concepts/agent-plan-g4c-framework)
+- [智能体 Plan 机制](/wiki/concepts/agent-plan-mechanism)
+- [智能体运行时契约](/wiki/concepts/agent-runtime-contracts)
+- [智能体会话持久化](/wiki/concepts/agent-session-persistence)
 - [智能体任务简报](/wiki/concepts/agent-task-briefing)
+- [智能体工具执行流水线](/wiki/concepts/agent-tool-execution-pipeline)
 - [AI 编程工程循环](/wiki/concepts/ai-coding-engineering-loop)
 - [AI 调试错误分诊](/wiki/concepts/ai-debugging-error-triage)
 - [AI 知识工程反馈循环](/wiki/concepts/ai-knowledge-engineering-feedback-loop)
@@ -57,6 +69,7 @@ lastUpdated: false
 - [上下文工程](/wiki/concepts/context-engineering)
 - [声明式智能体配置](/wiki/concepts/declarative-agent-configuration)
 - [确定性数据流水线](/wiki/concepts/deterministic-data-pipeline)
+- [意图识别评估](/wiki/concepts/intent-recognition-evaluation)
 - [长上下文失效模式](/wiki/concepts/long-context-failure-modes)
 - [最小可复现问题报告](/wiki/concepts/minimal-reproducible-problem-report)
 - [模型能力公开信号](/wiki/concepts/model-capability-public-signals)

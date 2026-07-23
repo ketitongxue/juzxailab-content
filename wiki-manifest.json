@@ -16,6 +16,13 @@
       "syncedAt": "2026-07-03T00:00:00.000Z"
     },
     {
+      "source": "concepts/agent-context-compaction.md",
+      "hash": "3b535a28975197c8b343aaea57f71f7c563bd4c66617b9c7736f69aa7ae9bc19",
+      "publicPath": "docs/wiki/concepts/agent-context-compaction.md",
+      "status": "published",
+      "syncedAt": "2026-07-23T11:41:44.663Z"
+    },
+    {
       "source": "concepts/agent-cost-control.md",
       "hash": "db53f0068364643274210a7e40864307efeab6e64c7360f8db8452acd756c543",
       "publicPath": "docs/wiki/concepts/agent-cost-control.md",
@@ -31,10 +38,10 @@
     },
     {
       "source": "concepts/agent-harness-engineering.md",
-      "hash": "333e4bf01a2cf80e2c3426c38ee7fc6fec05eeeeb1a2e24be265843950835e59",
+      "hash": "3b131d4b9ce63c075728cc9175f929f786a7c63e20f0d4935c6f12b25571e281",
       "publicPath": "docs/wiki/concepts/agent-harness-engineering.md",
       "status": "published",
-      "syncedAt": "2026-07-11T15:13:09.206Z"
+      "syncedAt": "2026-07-23T11:41:44.663Z"
     },
     {
       "source": "concepts/agent-headless-execution.md",
@@ -44,18 +51,81 @@
       "syncedAt": "2026-07-11T15:13:09.206Z"
     },
     {
+      "source": "concepts/agent-input-normalization.md",
+      "hash": "3b70380e450e6741c743d1363468ae419010bc8ca10fada9d449ea92780b2ddd",
+      "publicPath": "docs/wiki/concepts/agent-input-normalization.md",
+      "status": "published",
+      "syncedAt": "2026-07-23T11:41:44.663Z"
+    },
+    {
+      "source": "concepts/agent-intent-recognition-pipeline.md",
+      "hash": "272ef98454f53c424ceac9d10b95597797764b332ec202f0ec33a53bfec5c5a3",
+      "publicPath": "docs/wiki/concepts/agent-intent-recognition-pipeline.md",
+      "status": "published",
+      "syncedAt": "2026-07-23T11:41:44.663Z"
+    },
+    {
       "source": "concepts/agent-loop-engineering.md",
-      "hash": "30222a01a59c32e208bb33e657e6f67f848c2e05d60c447230ceb8ad540b516c",
+      "hash": "7a87c23c2ba20261dd8d71106e3021ffa2badae94dff82ac4d87edfcaeff3bc9",
       "publicPath": "docs/wiki/concepts/agent-loop-engineering.md",
       "status": "published",
-      "syncedAt": "2026-07-12T02:34:06.978Z"
+      "syncedAt": "2026-07-23T11:41:44.663Z"
     },
     {
       "source": "concepts/agent-pipeline-orchestration.md",
-      "hash": "7422ae58d48be1273a6a8b98a0d1e524793d30d89132ce154551c00e7629d833",
+      "hash": "abdfc53d9695c5f35cae89ba78881977eb644d34e7a01c3196a7d8a6db3bb510",
       "publicPath": "docs/wiki/concepts/agent-pipeline-orchestration.md",
       "status": "published",
-      "syncedAt": "2026-07-07T14:03:23.055Z"
+      "syncedAt": "2026-07-23T11:41:44.663Z"
+    },
+    {
+      "source": "concepts/agent-plan-advanced-patterns.md",
+      "hash": "db8ddcbaca7407181ff0e42710be8d6082bc22d3daa02cc80fe1002a788a8bf7",
+      "publicPath": "docs/wiki/concepts/agent-plan-advanced-patterns.md",
+      "status": "published",
+      "syncedAt": "2026-07-23T11:41:44.663Z"
+    },
+    {
+      "source": "concepts/agent-plan-correction-strategies.md",
+      "hash": "421fcc01ee6ca030745c277f4dc669e1c61565df9c7eaa76c30a6d4030952db1",
+      "publicPath": "docs/wiki/concepts/agent-plan-correction-strategies.md",
+      "status": "published",
+      "syncedAt": "2026-07-23T11:41:44.663Z"
+    },
+    {
+      "source": "concepts/agent-plan-evaluation.md",
+      "hash": "3dc3d1fddf272faa7a9dfc7a2b985f8a3c869d05f4889ffc34aa08216034b749",
+      "publicPath": "docs/wiki/concepts/agent-plan-evaluation.md",
+      "status": "published",
+      "syncedAt": "2026-07-23T11:41:44.663Z"
+    },
+    {
+      "source": "concepts/agent-plan-g4c-framework.md",
+      "hash": "550569fac337659f6ee99d8182731d78773edb875f925de2008a1d04d9c7c4bb",
+      "publicPath": "docs/wiki/concepts/agent-plan-g4c-framework.md",
+      "status": "published",
+      "syncedAt": "2026-07-23T11:41:44.663Z"
+    },
+    {
+      "source": "concepts/agent-plan-mechanism.md",
+      "hash": "5e5a9713b7c5eca2a27182f3b0c4b900685d6a7c79617044365cb5addc293a65",
+      "publicPath": "docs/wiki/concepts/agent-plan-mechanism.md",
+      "status": "published",
+      "syncedAt": "2026-07-23T11:41:44.663Z"
+    },
+    {
+      "source": "concepts/agent-runtime-contracts.md",
+      "hash": "ffc988f5316433600196d9877ed3c87db9c4bd817ab1d50ba0aa4ac44fb19ae7",
+      "publicPath": "docs/wiki/concepts/agent-runtime-contracts.md",
+      "status": "published",
+      "syncedAt": "2026-07-23T11:41:44.663Z"
+    },
+    {
+      "source": "concepts/agent-session-persistence.md",
+      "hash": "e507b798854ce474d2e5b5745ed54ab6ffea06b223e9440a5a012d361508d0cc",
+      "publicPath": "docs/wiki/concepts/agent-session-persistence.md",
+      "status": "published",
+      "syncedAt": "2026-07-23T11:41:44.663Z"
     },
     {
       "source": "concepts/agent-task-briefing.md",
@@ -65,11 +135,18 @@
       "syncedAt": "2026-07-19T13:55:34.730Z"
     },
     {
+      "source": "concepts/agent-tool-execution-pipeline.md",
+      "hash": "8bcc2ea20452471c32e3f5983b0a6ce021ce9a88cd34011ab8f30d35b8268a9d",
+      "publicPath": "docs/wiki/concepts/agent-tool-execution-pipeline.md",
+      "status": "published",
+      "syncedAt": "2026-07-23T11:41:44.663Z"
+    },
+    {
       "source": "concepts/ai-coding-engineering-loop.md",
-      "hash": "c7d3e9a24774036ea4a3a97b7a76b8d191456d9432738c95c78e26c42ee9a7a9",
+      "hash": "bef5712eeb64ebcf3a916e6517f9fb3b34fd2aec2bdfb955a38cab53683d269a",
       "publicPath": "docs/wiki/concepts/ai-coding-engineering-loop.md",
       "status": "published",
-      "syncedAt": "2026-07-19T13:55:34.730Z"
+      "syncedAt": "2026-07-23T11:41:44.663Z"
     },
     {
       "source": "concepts/ai-debugging-error-triage.md",
@@ -143,10 +220,10 @@
     },
     {
       "source": "concepts/context-engineering.md",
-      "hash": "0871753f092e5fe86f91b210506e184561bb7feeaded96702223dec1153e5c8f",
+      "hash": "278c57800c6c6f439552920de48cd320a9398610bb8ec045326f0a1deb7e881d",
       "publicPath": "docs/wiki/concepts/context-engineering.md",
       "status": "published",
-      "syncedAt": "2026-07-19T13:55:34.730Z"
+      "syncedAt": "2026-07-23T11:41:44.663Z"
     },
     {
       "source": "concepts/declarative-agent-configuration.md",
@@ -161,6 +238,13 @@
       "publicPath": "docs/wiki/concepts/deterministic-data-pipeline.md",
       "status": "published",
       "syncedAt": "2026-07-11T15:13:09.206Z"
+    },
+    {
+      "source": "concepts/intent-recognition-evaluation.md",
+      "hash": "2e7d7dc613182415d301524a4ee2dce73671c9bac6fc2450fbd8d9e1d212b277",
+      "publicPath": "docs/wiki/concepts/intent-recognition-evaluation.md",
+      "status": "published",
+      "syncedAt": "2026-07-23T11:41:44.663Z"
     },
     {
       "source": "concepts/long-context-failure-modes.md",
@@ -297,10 +381,10 @@
     },
     {
       "source": "concepts/skill-design-patterns.md",
-      "hash": "3e0055763681cd3b8d05e9ad4cdffadae682d40fea0ae951875b54a4e56a070c",
+      "hash": "8871382cc2d948ce7cdbbac0d9f681c7419131200c3423ad16607c49cd0f7e0b",
       "publicPath": "docs/wiki/concepts/skill-design-patterns.md",
       "status": "published",
-      "syncedAt": "2026-07-11T16:07:23.711Z"
+      "syncedAt": "2026-07-23T11:41:44.663Z"
     },
     {
       "source": "concepts/smart-technical-questioning.md",
@@ -339,10 +423,10 @@
     },
     {
       "source": "entities/claude-code.md",
-      "hash": "c00bede0ce4c527c663f51d146a060ddf48cba30198190c99f7b97f584b07c73",
+      "hash": "60bcf5072739b05ee2ba1b357c388b721158bf27e9248b7129e8a3e8cb5cc7c4",
       "publicPath": "docs/wiki/entities/claude-code.md",
       "status": "published",
-      "syncedAt": "2026-07-19T13:55:34.730Z"
+      "syncedAt": "2026-07-23T11:41:44.663Z"
     },
     {
       "source": "entities/openclaw.md",
@@ -350,6 +434,13 @@
       "publicPath": "docs/wiki/entities/openclaw.md",
       "status": "published",
       "syncedAt": "2026-07-03T00:00:00.000Z"
+    },
+    {
+      "source": "entities/pigo.md",
+      "hash": "318e55d5c61c691777c73c1c1c71e62fa97002257a90f8386d9f787f0ab69ad3",
+      "publicPath": "docs/wiki/entities/pigo.md",
+      "status": "published",
+      "syncedAt": "2026-07-23T11:41:44.663Z"
     }
   ]
 }
